@@ -1,25 +1,20 @@
-# Pasticcina's Webpage
+# Pasticcina Website
 
-A simple webpage built with Flask.
+A static website for Pasticcina, your favorite pastry destination.
 
-## Local Development
+## Website
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+Visit the live site at: https://martinmusiol1987.github.io/pasticcina_net/
 
-2. Run the application:
-```bash
-python app.py
-```
+## Development
 
-3. Visit `http://localhost:5000` in your browser
+This is a static website hosted on GitHub Pages. To make changes:
 
-## Deployment
+1. Edit the HTML, CSS, and JavaScript files
+2. Commit and push to the `main` branch
+3. Changes will automatically deploy to the `gh-pages` branch
 
-This application is configured for Heroku deployment. To deploy:
+## Structure
 
-1. Create a new Heroku app
-2. Connect your GitHub repository
-3. Deploy the main branch 
+- `index.html` - Main page
+- `static/` - Contains CSS, JavaScript, and other assets 
